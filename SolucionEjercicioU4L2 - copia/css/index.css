@@ -1,0 +1,297 @@
+@font-face {
+  font-family: backtoblack;
+  src: url("../fonts/Back to Black Bold Demo.ttf")
+}
+
+body {
+  background: url(../img/monte.jpg );
+  background-repeat: no-repeat;
+  background-position: center top 193px;
+  ;
+  background-attachment: fixed;
+  background-color: #aeea00;
+}
+
+header {
+  min-height: 8rem;
+}
+
+div[class*="columna"] {
+  min-height: 60rem;
+  border: 1px solid #eceff1;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+div[class*="columna-news"] {
+  height: 25rem;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+div[class*="formulario"] {
+  min-height: 25rem;
+  border: 1px solid #eceff1;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flow-text {
+  color: white;
+  font-family: 'Rokkitt', serif;
+  text-align: left;
+}
+
+.verde {
+  color: #b388ff;
+}
+
+.material-icons {
+  color: white;
+}
+
+div[class*="contenido"] {
+  height: 50rem;
+  margin-top: 10px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+span {
+  color: black;
+  font-family: fantasy;
+}
+
+div[class*="contenedormujeres"] {
+  height: 25rem;
+  margin-top: 10px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+div[class*="contenedormujeres2"] {
+  height: 50rem;
+  margin-top: 10px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+div[class*="autor"] {
+  height: auto;
+  margin-top: 10px;
+}
+
+div[class*="offset-1"] {
+  height: 50rem;
+  margin-top: 10px;
+}
+
+div[class*="texto"] {
+  height: 50rem;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+div[class*="imagenlogo"] {
+  height: auto;
+  margin-top: 10px;
+}
+
+div[class*="reseña"] {
+  height: auto;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+div[class*="bloque"] {
+  height: 29rem;
+  margin-top: 10px;
+}
+
+div[class*="bloque-feed"] {
+  height: 25rem;
+}
+
+div[class*="bloque-chat"] {
+  height: 19rem;
+  margin-right: auto;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.logopropio {
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 25%;
+}
+
+.biografia {
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+}
+
+#mujeres {
+  height: 100%;
+  width: 80%;
+  margin-left: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+#fotopropia {
+  height: 100%;
+  width: 80%;
+  margin-left: 20px;
+  text-align: left;
+}
+
+#purpura {
+color: #b388ff;
+}
+
+#morado {
+  color: palevioletred;
+}
+
+a {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+h3 {
+  width: 100%;
+  padding: 0;
+  margin-top: 80px;
+  margin-right: 30px;
+  color: #b388ff;
+  font-family: backtoblack;
+}
+
+h2 {
+  width: 100%;
+  padding: 0;
+  margin-top: 80px;
+  margin-right: 30px;
+  color: #aeea00;
+  font-family: backtoblack;
+}
+
+h4 {
+  width: 100%;
+  padding: 0;
+  margin-top: 80px;
+  margin-right: 30px;
+  color: #aeea00;
+  font-family: backtoblack;
+}
+
+.biografia {
+  font-family: 'Rokkitt', serif;
+}
+
+.responsive-img {
+  border-radius: 5px;
+  width: 60%;
+}
+
+#fotolarga {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+#rave {
+  width: 100%;
+  height: 100%;
+}
+
+#bosque {
+  width: 100%;
+  height: 100%;
+}
+
+#bosquelsd {
+  height: 100%;
+  width: 100%;
+}
+
+#bosque2 {
+  width: 100%;
+  height: 100%;
+}
+
+#email {
+  color: #b388ff;
+}
+
+.row .col.s8 {
+  margin-left: 50px;
+}
+
+#cajatexto {
+  margin-top: 40px;
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .columna-grupos {
+    padding: 0 !important;
+  }
+  div[class*="contenido"] {
+    height: 120rem;
+    margin-top: 10px;
+  }
+  div[class*="texto"] {
+    height: 75rem;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  div[class*="reseña"] {
+    height: 42rem;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin: 0;
+  }
+  div[class*="contenedormujeres2"] {
+    height: 42rem;
+    margin-top: 10px;
+  }
+  .logo{
+    width: 100px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  div[class*="contenido"] {
+    height: 90rem;
+    margin-top: 10px;
+  }
+  div[class*="texto"] {
+    height: 100rem;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .logo {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1030px) {
+  div[class*="contenido"] 
+    .logo {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
